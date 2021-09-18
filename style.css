@@ -1,100 +1,114 @@
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-    * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-family: 'Poppins', sans-serif;
-        ;
-    }
-    
-    header {
-        background-color: rgb(46, 55, 69);
-        height: 70vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-    
-    header h1 {
-        color: white;
-    }
-    
-    header h1:first-child {
-        font-size: 3rem;
-    }
-    
-    a {
-        color: white;
-    }
-    
-    main {
-        padding: 5rem;
-        padding-top: 3rem;
-    }
-    
-    main h1 {
-        text-align: center;
-        font-size: 2rem;
-    }
-    
-    main article:first-child p {
-        text-align: center;
-    }
-    
-    .Certificates {
-        display: flex;
-        background-color: gray;
-        margin-top: 3rem;
-    }
-    
-    .Certificates>div {
-        width: 50%;
-        background-color: white;
-        padding: 1rem;
-    }
-    
-    .Certificates div:first-child {
-        margin-right: 0.1rem;
-    }
-    
-    .Certificates i {
-        color: rgb(192, 149, 0);
-        width: 100%;
-        margin: auto;
-    }
-    
-    h3 small {
-        font-size: 0.8rem;
-    }
-    
-    h1+div {
-        text-align: center;
-        margin-top: 1rem;
-    }
-    
-    @media (max-width: 480px) {
-        header h1:first-child {
-            font-size: 2rem;
-        }
-        header h1:nth-child(2) {
-            font-size: 1.5rem;
-        }
-        main {
-            padding: 1rem;
-            padding-top: 1rem;
-        }
-        .Certificates {
-            margin-top: 1rem;
-            flex-direction: column;
-            background-color: white;
-        }
-        .Certificates>div {
-            width: 100%;
-            background-color: white;
-            padding-bottom: 1.6rem;
-        }
-        .Certificates div:first-child {
-            margin-right: 0;
-        }
-    }
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+ }
+ 
+ header {
+     background-color: rgb(46, 55, 69);
+     height: 70vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+ 
+ header h1 {
+     color: white;
+ }
+ 
+ header h1:first-child {
+     font-size: 3rem;
+ }
+ 
+ a {
+     color: white;
+ }
+ 
+ main {
+     padding: 5rem;
+     padding-top: 3rem;
+ }
+ 
+ main h1 {
+     text-align: center;
+     font-size: 2rem;
+ }
+ 
+ main article:first-child p {
+     text-align: center;
+ }
+ 
+ .Certificates {
+     display: flex;
+     background-color: gray;
+     margin-top: 3rem;
+ }
+ 
+ .Certificates>div {
+     width: 50%;
+     background-color: white;
+     padding: 1rem;
+ }
+ 
+ .Certificates div:first-child {
+     margin-right: 0.1rem;
+ }
+ 
+ .Certificates i {
+     color: rgb(192, 149, 0);
+     width: 100%;
+     margin: auto;
+ }
+ 
+ h3 small {
+     font-size: 0.8rem;
+ }
+ 
+ h1+div {
+     text-align: center;
+     margin-top: 1rem;
+ }
+ /*  */
+ 
+ .experience {
+     margin-Top: 3rem;
+ }
+ 
+ .experience>div {
+     border-left: gray solid 1px;
+     text-align: left;
+     padding-left: 3rem;
+ }
+ 
+ article {
+     margin-top: 3rem;
+ }
+ 
+ @media (max-width: 480px) {
+     header h1:first-child {
+         font-size: 2rem;
+     }
+     header h1:nth-child(2) {
+         font-size: 1.5rem;
+     }
+     main {
+         padding: 1rem;
+         padding-top: 1rem;
+     }
+     .Certificates {
+         margin-top: 1rem;
+         flex-direction: column;
+         background-color: white;
+     }
+     .Certificates>div {
+         width: 100%;
+         background-color: white;
+         padding-bottom: 1.6rem;
+     }
+     .Certificates div:first-child {
+         margin-right: 0;
+     }
+ }
