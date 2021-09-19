@@ -83,8 +83,38 @@
      padding-left: 3rem;
  }
  
+ .experience p {
+     margin-top: 1rem;
+ }
+ 
  article {
      margin-top: 3rem;
+ }
+ 
+ .Education h1 {
+     margin-bottom: 1rem;
+ }
+ 
+ .arrange {
+     display: flex;
+ }
+ 
+ .itemA {
+     flex: 1;
+     color: white;
+     background-color: rgb(46, 55, 69);
+     margin: 1rem;
+     padding: 1rem;
+     border-radius: 5px;
+ }
+ 
+ .itemA h4 {
+     text-transform: uppercase;
+     text-decoration: underline;
+ }
+ 
+ .itemA p {
+     text-align: justify;
  }
  
  @media (max-width: 480px) {
@@ -110,5 +140,13 @@
      }
      .Certificates div:first-child {
          margin-right: 0;
+     }
+     .experience>div {
+         border-left: none;
+         text-align: center;
+         padding-left: 0;
+     }
+     .experience p {
+         text-align: justify;
      }
  }
