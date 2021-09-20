@@ -6,6 +6,10 @@
      font-family: 'Poppins', sans-serif;
  }
  
+ p {
+     text-align: justify;
+ }
+ 
  header {
      background-color: rgb(46, 55, 69);
      height: 70vh;
@@ -89,6 +93,7 @@
  
  article {
      margin-top: 3rem;
+     width: 100%;
  }
  
  .Education h1 {
@@ -114,6 +119,44 @@
  
  .itemA p {
      text-align: justify;
+ }
+ 
+ .skills {
+     display: flex;
+ }
+ 
+ .skills h3 {
+     text-align: left;
+ }
+ 
+ .skill {
+     margin: 0.5rem;
+     flex: 1;
+     width: 100%;
+ }
+ 
+ .skillContainer {
+     background-color: rgb(206, 204, 204);
+     height: 10px;
+     border-radius: 5px;
+ }
+ 
+ .skillPercentage {
+     background-color: rgb(46, 55, 69);
+     height: 10px;
+     border-radius: 5px;
+ }
+ 
+ .p-90 {
+     width: 90%;
+ }
+ 
+ .p-80 {
+     width: 80%;
+ }
+ 
+ .p-70 {
+     width: 70%;
  }
  
  @media (max-width: 480px) {
@@ -162,5 +205,8 @@
          color: gray;
          text-transform: none;
          text-decoration: none;
+     }
+     .skills {
+         flex-direction: column;
      }
  }
