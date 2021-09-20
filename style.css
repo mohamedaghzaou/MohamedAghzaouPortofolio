@@ -167,6 +167,22 @@
      border: 1px solid gray;
  }
  
+ .Project div a img {
+     width: 5rem;
+ }
+ 
+ footer {
+     height: 7vh;
+     background-color: rgb(46, 55, 69);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ 
+ footer p {
+     color: white;
+ }
+ 
  @media (max-width: 480px) {
      header h1:first-child {
          font-size: 2rem;
