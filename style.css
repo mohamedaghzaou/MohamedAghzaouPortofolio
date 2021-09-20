@@ -159,6 +159,14 @@
      width: 70%;
  }
  
+ .Project {
+     flex: 1;
+     margin: 1rem;
+     padding: 1rem;
+     border-radius: 10px;
+     border: 1px solid gray;
+ }
+ 
  @media (max-width: 480px) {
      header h1:first-child {
          font-size: 2rem;
